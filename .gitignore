@@ -71,6 +71,7 @@ application-my-test.properties
 mybatis-generator-config.xml
 ChannelBizRankClient.java
 ChannelBizBrandWallClient.java
+ApifoxUploaderProjectSetting.xml
 /*/rebel.xml
 
 # yml

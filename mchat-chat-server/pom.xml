@@ -16,8 +16,11 @@
             <groupId>com.aqing</groupId>
             <artifactId>mchat-common-starter</artifactId>
         </dependency>
-
-
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-mp</artifactId>
+            <version>4.4.0</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
