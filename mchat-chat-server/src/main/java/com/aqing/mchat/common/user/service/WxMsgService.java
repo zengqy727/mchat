@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * Description: 处理与微信api的交互逻辑
- * Author: <a href="https://github.com/zongzibinbin">aqing</a>
+ * Author: <a href="https://github.com/zengqy727">aqing</a>
  * Date: 2023-03-19
  */
 @Service

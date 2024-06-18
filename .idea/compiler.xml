@@ -10,14 +10,16 @@
         <module name="mallchat-common-starter" />
         <module name="mchat-chat-server" />
         <module name="mchat-common-starter" />
-        <module name="mchat-chat-server" />
+        <module name="mchat-transaction" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mchat" options="" />
       <module name="mchat-chat-server" options="-parameters" />
       <module name="mchat-common-starter" options="-parameters" />
+      <module name="mchat-transaction" options="-parameters" />
     </option>
   </component>
 </project>

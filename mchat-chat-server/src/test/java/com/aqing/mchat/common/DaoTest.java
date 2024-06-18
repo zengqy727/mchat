@@ -1,5 +1,5 @@
 package com.aqing.mchat.common;
-import java.util.Date;
+
 import com.aqing.mchat.common.user.dao.UserDao;
 import com.aqing.mchat.common.user.domain.entity.User;
 import lombok.extern.slf4j.Slf4j;

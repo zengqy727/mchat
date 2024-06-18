@@ -1,8 +1,8 @@
 package com.aqing.mchat.common.websocket;
 
 import cn.hutool.json.JSONUtil;
-import com.aqing.mchat.common.websocket.domain.enums.WSReqTypeEnum;
-import com.aqing.mchat.common.websocket.domain.vo.req.WSBaseReq;
+import com.aqing.mchat.common.user.domain.enums.WSReqTypeEnum;
+import com.aqing.mchat.common.user.domain.vo.request.ws.WSBaseReq;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;

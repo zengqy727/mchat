@@ -4,15 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.aqing</groupId>
+    <groupId>com.aqing.mchat</groupId>
     <artifactId>mchat</artifactId>
-    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>mchat-chat-server</module>
-        <module>mchat-framwork</module>
+        <module>mchat-tools</module>
     </modules>
-
+    <packaging>pom</packaging>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -50,9 +49,9 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.aqing</groupId>
+                <groupId>com.aqing.mchat</groupId>
                 <artifactId>mchat-common-starter</artifactId>
-                <version>${version}</version>
+                <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>com.squareup.okhttp3</groupId>
